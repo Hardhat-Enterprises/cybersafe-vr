@@ -101,13 +101,13 @@ public class ChangeScenes : MonoBehaviour
         SceneManager.LoadScene("PhScene16");
     }
 
-    // Scene 17, Anthony Smith email, hint/giveup //
+    // Scene 17, Anthony Smith email red flag 1 - entire email content //
     public void GoToScene17()
     {
         SceneManager.LoadScene("PhScene17");
     }
 
-    // Scene 18, Anthony Smith email red flag 1 - entire email content //
+    // Scene 18, Anthony Smith email, hint/giveup //
     public void GoToScene18()
     {
         SceneManager.LoadScene("PhScene18");
