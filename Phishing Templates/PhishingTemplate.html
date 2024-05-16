@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      < ! This is the font for the main body of the email -->
+    }
+
+    .inbox-container {
+      max-width: 600px;
+      margin: 20px auto;
+      < ! This is setting the max width of the element,
+      and the margin -->
+    }
+
+    .inbox {
+      max-width: 600px;
+      padding: 20px;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      background-color: #f9f9f9;
+      < ! Parameters for the grey field,
+      which contains email contents -->
+    }
+
+    .banner {
+      background-color: #4285f4;
+      color: #ffffff;
+      padding: 20px;
+      border-radius: 5px 5px 0 0;
+      < ! Formatting for my banner -->
+    }
+
+    .verification-code {
+      font-weight: bold;
+      font-size: 18px;
+      text-align: center;
+      < ! Formatting for my verification code -->
+    }
+  </style>
+</head>
+
+<body>
+  <br /><br />
+  <div class="inbox-container">
+    <b>xxx Drive Accounts no-reply@xxx.com</b><br />
+    <b>From:</b> bethtest52@gmail.com <br />
+    <b>Recipient:</b> admin@doctorsclinic.com.au <br /><br />
+    <! From, and recipient fields -->
+      <div class="inbox">
+        <img src="" width="100" height="28">
+        <! Logo URL can be inserted above between the "" -->
+          <br><br>
+          <! Inserting the bannner -->
+            <div class="banner">
+              <! Text for the bannner -->
+                <h3>xxx Verification Code</h3>
+            </div>
+            <! Text for the content of the email follows from here -->
+              <p> We received a request to access your xxx Drive documents associated wtih the account: <span style="color: blue">admin@doctorsclinic.com.au</span>. Your xxx verification code is: </p>
+              <div class="verification-code">895361</div>
+              <p>If you did not request this code, it is possible that someone else is trying to access your xxx Drive account using <span style="color:blue">admin@doctorsclinic.com.au</span>. <b>Do not forward or give this code to anyone.</b></p>
+              <p>If you did not request this code, please <a href="">click here</a> to login and change your password. </p>
+              <p>Sincerely yours, <br><br> The xxx xxx team
+      </div>
+</body>
+
+</html>
