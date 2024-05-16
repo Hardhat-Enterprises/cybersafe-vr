@@ -27,6 +27,7 @@ public class PhPlayerMovement : MonoBehaviour
         characterController = GetComponent<CharacterController>();
         // Cursor.lockState = CursorLockMode.Locked;
         // Cursor.visible = false;
+        // Had to remove the above to allow user to use mouse to navigate through UI environment. 
     }
 
     void Update()
