@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SMSComputer.unity
     guid: 8ac796563fd9e3b48b9e5a467ff98978
+  - enabled: 1
+    path: Assets/Scenes/SWB.unity
+    guid: 7deff252bbb3f7c4aa866e9f51150def
+  - enabled: 1
+    path: Assets/Scenes/SWBUI.unity
+    guid: e2e04ec52e4cf144db13479c15b82a90
+  - enabled: 1
+    path: Assets/Scenes/SWBOpen.unity
+    guid: 9de116937ad573244aec0a529ec8aefc
   m_configObjects: {}
