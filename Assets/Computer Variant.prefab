@@ -75,7 +75,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.72437996, y: 0.6536514, z: 0.66947377}
   m_Center: {x: 0.17514537, y: 0.32943955, z: 0.018761966}
---- !u!114 &663795551
+--- !u!114 &8913411935958629252
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -84,7 +84,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 8913411936005576065}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b0c5babfc0090e4dbffd3dff07192bd, type: 3}
+  m_Script: {fileID: 11500000, guid: b7261f9bf4a1d2d4398cf4288856a04d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cursorManager: {fileID: 0}
+  sceneManagerScript: {fileID: 0}
+  sceneName: SMSComputer

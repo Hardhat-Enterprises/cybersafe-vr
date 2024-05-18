@@ -204,7 +204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2624671227268106405}
   - component: {fileID: 7170712374947840340}
-  - component: {fileID: 5275369256555266612}
+  - component: {fileID: 1498459242911437746}
   m_Layer: 0
   m_Name: (Prb)PC
   m_TagString: Untagged
@@ -239,9 +239,9 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 2, z: 2}
-  m_Center: {x: -0.88, y: 0.23, z: -0.02}
---- !u!114 &5275369256555266612
+  m_Size: {x: 1.5, y: 1, z: 1.5}
+  m_Center: {x: 0.4, y: 0.23, z: 0}
+--- !u!114 &1498459242911437746
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -250,10 +250,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 3397794668357964319}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 732992bb4eaaf2d40b16fede6b9280f5, type: 3}
+  m_Script: {fileID: 11500000, guid: b7261f9bf4a1d2d4398cf4288856a04d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cursorManager: {fileID: 0}
+  sceneManagerScript: {fileID: 0}
+  sceneName: SWBUI
 --- !u!1 &4191761070576162638
 GameObject:
   m_ObjectHideFlags: 0
