@@ -1,7 +1,6 @@
 using UnityEngine;
- 
-public class CursorManager : MonoBehaviour
 
+public class CursorManager : MonoBehaviour
 {
     // Function to show the cursor and unlock it
     public void ShowCursor()

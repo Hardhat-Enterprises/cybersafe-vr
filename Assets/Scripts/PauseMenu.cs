@@ -5,54 +5,49 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    public GameObject pauseMenu; // Changed variable name from PauseMenu to pauseMenu
-    public bool isPaused;
-    public CursorManager cursorManager;
+    public GameObject pauseMenu;
+    public static bool isPaused;
     public FirstPersonController playerController;
+    public CursorManager cursorManager; // Reference to the CursorManager script
 
-    // Start is called before the first frame update
     void Start()
     {
         pauseMenu.SetActive(false);
-        ResumeGame();
+        ResumeGame(); // Ensure the game starts unpaused
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (isPaused)
-            {
                 ResumeGame();
-            }
             else
-            {
                 PauseGame();
-            }
         }
     }
 
     public void PauseGame()
     {
         pauseMenu.SetActive(true);
-        Time.timeScale = 0f; // Corrected property name to Time.timeScale
+        Time.timeScale = 0f;
         isPaused = true;
         playerController.SetMovementEnabled(false);
-        cursorManager.ShowCursor();
+        cursorManager.ShowCursor(); // Show the cursor when pausing
     }
 
     public void ResumeGame()
     {
         pauseMenu.SetActive(false);
-        Time.timeScale = 1f; // Corrected property name to Time.timeScale
+        Time.timeScale = 1f;
         isPaused = false;
         playerController.SetMovementEnabled(true);
-        cursorManager.HideCursor();
+        cursorManager.HideCursor(); // Hide the cursor when resuming
     }
 
-    public void QuitGame()
+    public void ReturnMenu()
     {
-        Application.Quit();
+        // Load the Office scene
+        SceneManager.LoadScene("MainMenu");
     }
 }

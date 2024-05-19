@@ -6,12 +6,42 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Study Env.unity
+    path: Assets/Scenes/MainMenu.unity
+    guid: d545061c1c2134048aac624980b2fa77
+  - enabled: 1
+    path: Assets/Scenes/SMSOffice.unity
+    guid: d65ec7298afb3af4b989665a3579d955
+  - enabled: 1
+    path: Assets/Scenes/SMSPhone.unity
+    guid: 4de394d20d19d53439fa2aa1720605d5
+  - enabled: 1
+    path: Assets/Scenes/SMSComputer.unity
+    guid: 8ac796563fd9e3b48b9e5a467ff98978
+  - enabled: 1
+    path: Assets/Scenes/SWB.unity
     guid: 7deff252bbb3f7c4aa866e9f51150def
   - enabled: 1
-    path: Assets/Scenes/UI Environment.unity
+    path: Assets/Scenes/SWBUI.unity
     guid: e2e04ec52e4cf144db13479c15b82a90
   - enabled: 1
-    path: Assets/Scenes/Open.unity
+    path: Assets/Scenes/SWBOpen.unity
     guid: 9de116937ad573244aec0a529ec8aefc
+  - enabled: 1
+    path: Assets/Scenes/SWBURL.unity
+    guid: f4f73263843390a458a85a35955d7058
+  - enabled: 1
+    path: Assets/Scenes/SWBIPAD.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/SWBSafari.unity
+    guid: a28330eda1839424a94fbc896a93c3d7
+  - enabled: 1
+    path: Assets/Scenes/SWBOutlook.unity
+    guid: 128ee15118377a1428eea21f27b8e04f
+  - enabled: 1
+    path: Assets/Scenes/SWBEmail.unity
+    guid: 307b811d7db47bd4f8336e5c719d8a75
+  - enabled: 1
+    path: Assets/Scenes/SWBError.unity
+    guid: e4daee90641c5e446ae733f0cdea669f
   m_configObjects: {}

@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 24
-  productGUID: d3ee078cfc501da4695c4dc08134d705
+  productGUID: 71974b42fc9f3a1469d548d2880f1dfc
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Safe Web Browsing VR module
+  productName: SMiShing
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -810,13 +810,13 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 2
+  activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: d4d7c136-9c9a-42cf-a7d0-9ecd68a5839d
+  cloudProjectId: 54585cc3-e99a-403a-92c4-9f0f4c910058
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Safe Web Browsing VR module
-  organizationId: matthewpinazo
+  projectName: SMiShing 2024-05-13_10-54-50
+  organizationId: zscherger
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
