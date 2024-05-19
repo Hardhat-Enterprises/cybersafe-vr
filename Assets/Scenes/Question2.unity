@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.4937, y: -0.2}
-  m_SizeDelta: {x: -4.6311, y: -1.79}
+  m_AnchoredPosition: {x: 0.4937, y: -0.3742}
+  m_SizeDelta: {x: -4.6311, y: -2.1384}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &47066944
 MonoBehaviour:
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 3. Option 3
+  m_text: 3. Use the password manager to securely store the new password
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -284,7 +284,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 180391302}
   m_LocalRotation: {x: -0, y: -0.7108541, z: -0, w: 0.7033395}
-  m_LocalPosition: {x: 0, y: 0, z: 12.9375}
+  m_LocalPosition: {x: 0, y: 0, z: 12.6742}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -293,8 +293,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -90.609, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -442.21115, y: -217.05962}
-  m_SizeDelta: {x: 16.6652, y: 4.3711}
+  m_AnchoredPosition: {x: -442.20828, y: -217.17772}
+  m_SizeDelta: {x: 16.1385, y: 3.9537}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &180391304
 MonoBehaviour:
@@ -339,7 +339,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 180391305}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1307947493}
+        m_TargetAssemblyTypeName: ChoiceScript2, Assembly-CSharp
+        m_MethodName: ChoiceOption2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &180391305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -504,7 +516,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.3750998, y: -0.059}
+  m_AnchoredPosition: {x: 1.3750997, y: -0.059000015}
   m_SizeDelta: {x: -2.7502, y: -2.0868}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &271771684
@@ -527,7 +539,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 2. Option 2
+  m_text: 2. No need to store it, you can just memorise it
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -949,8 +961,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -90.609, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -442.20862, y: -214.33975}
-  m_SizeDelta: {x: 16.1968, y: 4.1228}
+  m_AnchoredPosition: {x: -442.20862, y: -214.45929}
+  m_SizeDelta: {x: 16.1968, y: 3.8837}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &615642452
 MonoBehaviour:
@@ -995,7 +1007,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 615642453}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1307947493}
+        m_TargetAssemblyTypeName: ChoiceScript2, Assembly-CSharp
+        m_MethodName: ChoiceOption1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &615642453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1326,7 +1350,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 882716350}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1307947493}
+        m_TargetAssemblyTypeName: ChoiceScript2, Assembly-CSharp
+        m_MethodName: ChoiceOption3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &882716350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1470,6 +1506,55 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &1307947492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1307947494}
+  - component: {fileID: 1307947493}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1307947493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307947492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5d702927bdec6a4fb85fb70c4e3806b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextBox: {fileID: 591751710}
+  Choice01: {fileID: 615642450}
+  Choice02: {fileID: 180391302}
+  Choice03: {fileID: 882716347}
+  ChoiceMade: 0
+--- !u!4 &1307947494
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307947492}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.8353972, y: 5.286296, z: 12.449017}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1479324550
 GameObject:
   m_ObjectHideFlags: 0
@@ -2122,7 +2207,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1. Option 1
+  m_text: 1. Write it on a sticky note and place it on your desk
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2214,3 +2299,4 @@ SceneRoots:
   - {fileID: 1643386729}
   - {fileID: 944931272}
   - {fileID: 1936187489}
+  - {fileID: 1307947494}
