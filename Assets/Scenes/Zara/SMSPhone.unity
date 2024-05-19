@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.03614593, g: 0.090189874, b: 0.036209356, a: 1}
+  m_IndirectSpecularColor: {r: 0.03614613, g: 0.09019744, b: 0.03620955, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1067,7 +1067,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: SMSOffice
+          m_StringArgument: SMSOffice2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &869676109

@@ -1534,7 +1534,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9098840005421287233, guid: e39c4e4207dbea8448ac22f53489f32c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: SMSOffice
+      value: SMSOffice2
       objectReference: {fileID: 0}
     - target: {fileID: 9098840005421287233, guid: e39c4e4207dbea8448ac22f53489f32c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName

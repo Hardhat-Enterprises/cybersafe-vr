@@ -142,8 +142,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: If you see anything suspcious please report it to myself or any other IT
-    staff
+  m_text: Thank you for reporting this, we will log this threat and send out a caution
+    email to other employees
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 6195761700022822655}
   - component: {fileID: 8426874488020300611}
   m_Layer: 5
-  m_Name: Speech Bubble
+  m_Name: Speech Bubble2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

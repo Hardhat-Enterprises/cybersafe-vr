@@ -9,21 +9,51 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: d545061c1c2134048aac624980b2fa77
   - enabled: 1
-    path: Assets/Scenes/SMSOffice.unity
+    path: Assets/Scenes/Zara/SMSOffice.unity
     guid: d65ec7298afb3af4b989665a3579d955
   - enabled: 1
-    path: Assets/Scenes/SMSPhone.unity
+    path: Assets/Scenes/Zara/SMSOffice2.unity
+    guid: aa8a17315cd2cad47b4ff7ef67de15cd
+  - enabled: 1
+    path: Assets/Scenes/Zara/SMSPhone.unity
     guid: 4de394d20d19d53439fa2aa1720605d5
   - enabled: 1
-    path: Assets/Scenes/SMSComputer.unity
+    path: Assets/Scenes/Zara/SMSComputer.unity
     guid: 8ac796563fd9e3b48b9e5a467ff98978
   - enabled: 1
-    path: Assets/Scenes/SWB.unity
+    path: Assets/Scenes/Matt/SWB.unity
     guid: 7deff252bbb3f7c4aa866e9f51150def
   - enabled: 1
-    path: Assets/Scenes/SWBUI.unity
+    path: Assets/Scenes/Matt/SWBUI.unity
     guid: e2e04ec52e4cf144db13479c15b82a90
   - enabled: 1
-    path: Assets/Scenes/SWBOpen.unity
+    path: Assets/Scenes/Matt/SWBOpen.unity
     guid: 9de116937ad573244aec0a529ec8aefc
+  - enabled: 1
+    path: Assets/Scenes/Matt/SWBEmail.unity
+    guid: 307b811d7db47bd4f8336e5c719d8a75
+  - enabled: 1
+    path: Assets/Scenes/Matt/SWBError.unity
+    guid: e4daee90641c5e446ae733f0cdea669f
+  - enabled: 1
+    path: Assets/Scenes/Matt/SWBIPAD.unity
+    guid: 47f782a45e51d804e9e0844aeccabf05
+  - enabled: 1
+    path: Assets/Scenes/Matt/SWBOutlook.unity
+    guid: 128ee15118377a1428eea21f27b8e04f
+  - enabled: 1
+    path: Assets/Scenes/Matt/SWBSafari.unity
+    guid: a28330eda1839424a94fbc896a93c3d7
+  - enabled: 1
+    path: Assets/Scenes/Matt/SWBURL.unity
+    guid: f4f73263843390a458a85a35955d7058
+  - enabled: 1
+    path: Assets/Scenes/Vitthal/Office.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Vitthal/Question.unity
+    guid: cf10f69dc3644b949b518759b5e921f6
+  - enabled: 1
+    path: Assets/Scenes/Vitthal/Question2.unity
+    guid: 49d23b93e395d094dbf31461a57d5bc6
   m_configObjects: {}
