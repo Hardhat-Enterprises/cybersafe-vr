@@ -8,6 +8,7 @@ public class ChoiceScript2 : MonoBehaviour
     public GameObject Choice01;
     public GameObject Choice02;
     public GameObject Choice03;
+    public GameObject TryAgain;
     public int ChoiceMade;
 
     public void ChoiceOption1()
@@ -35,6 +36,11 @@ public class ChoiceScript2 : MonoBehaviour
             Choice01.SetActive(false);
             Choice02.SetActive(false);
             Choice03.SetActive(false);
+        }
+
+        if (ChoiceMade >= 3)
+        {
+            TryAgain.SetActive(false);
         }
     }
 }
